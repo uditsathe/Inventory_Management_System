@@ -1,1 +1,54 @@
 .env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+node_modules/
+dist/
+build/
+*.egg-info/
+.DS_Store
+postgres_data/
+MVP_execution_plan.md
+technical_requirements_and_setup.md
+assessment_details.md
+cursor_migration_guide.md
+
+# Internal planning & design docs (not required in assessment repo — §9: frontend + backend code only)
+CURSOR_MIGRATION_GUIDE.md
+Inventory Manager Design System/
+frontend/directory-structure.md
+frontend/dependencies.md
+
+# Local env overrides — never commit credentials (assessment §7)
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs & build caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.vite/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Windows OS artifacts
+Thumbs.db
+desktop.ini
+ehthumbs.db
+dependencies.md
+directory-structure.md
